@@ -39,6 +39,9 @@ gem "rack-cors"
 #devise
 gem "devise"
 
+# Generate JSON in an object-oriented and convention-driven manner
+gem 'active_model_serializers'
+
 group :test do
   gem "shoulda-matchers"
 end
